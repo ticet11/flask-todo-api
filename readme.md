@@ -4,3 +4,12 @@
 > sqlite database along with flask-marshmallow for object
 > serialization/deserialization. You can Post, Get, Patch, and Delete
 > todos through flask routes.
+
+> Create Database
+
+```
+$ pipenv shell
+$ python
+>>> from app import db
+>>> db.create_all()
+```
